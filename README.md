@@ -5,12 +5,6 @@ download the dataset and questions in your local system
 run the code given in the file one by one
 you can see how file code and comments and once you run all the code then you will be able to see the output and all. 
 
-Data set you can find in this link ::
-    https://figshare.com/articles/dataset/Eye_Tracker_Data/19729636/2
-In this question which readercher had done is given :
-    https://figshare.com/articles/dataset/Questionnaires/19657323/2
-
-
     # Empathy Assessment through Data Science
 
 
@@ -38,12 +32,14 @@ once we got the new features based on the selected column, we will do the person
 Next, we develop predictive model for empathy assessment using various Decision Tree Regressor and Linear Regression. We use K-Fold and cross-validation to evaluate the performance of this model based on appropriate evaluation metrics that was MSE.
 
 # hwo to get the files 
-1. Download the T4 empathy dataset from https://figshare.com/articles/dataset/Eye_Tracker_Data/19729636/2.  
+1. Download the T4 empathy dataset from https://figshare.com/articles/dataset/Eye_Tracker_Data/19729636/2
+2. question can ne downloaded from the below link :
+        https://figshare.com/articles/dataset/Questionnaires/19657323/2.  
 
-2. Create a new folder named "eyeT" in the same directory where the jupyter file is saved.  
+3. Create a new folder named "eyeT" in the same directory where the jupyter file is saved.  
 
-3. Extract the downloaded data into the "eyeT" folder to ensure that the dataset is in the correct file path for the Jupyter file to access.  
+4. Extract the downloaded data into the "eyeT" folder to ensure that the dataset is in the correct file path for the Jupyter file to access.  
 
-4. Run the Empathy Assignment.ipynb, which will load the dataset, perform exploratory data analysis (EDA), select features, preprocess the data and train the machine learning model for empathy assessment. The file contain code snippets for data preprocessing, EDA, feature selection, model development, and model evaluation. 
+5. Run the Empathy Assignment.ipynb, which will load the dataset, perform exploratory data analysis (EDA), select features, preprocess the data and train the machine learning model for empathy assessment. The file contain code snippets for data preprocessing, EDA, feature selection, model development, and model evaluation. 
 
-5. Once the model is trained, you can use it to predict the empathy score for new data or test data. The file include code snippets for making predictions using the trained model, along with generating the reasons for the predicted score and the contribution of each column towards the score. 
+6. Once the model is trained, you can use it to predict the empathy score for new data or test data. The file include code snippets for making predictions using the trained model, along with generating the reasons for the predicted score and the contribution of each column towards the score. 
